@@ -1,0 +1,49 @@
+body { 
+
+    background-image: linear-gradient(to bottom,#fedab1,#f8d6b4);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+main{
+    background-color: white;
+    border-radius: 7px;
+    width: 700px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 40px#292828;
+}
+#principal{
+    color:#e48517;
+    text-align: center;
+    text-shadow: 0px 0px 3px rgb(255, 157, 125);
+}
+.subtitulos{
+    color: #00559b;
+    background-color: aliceblue;
+}
+div:hover{
+    background-color: rgb(245, 241, 241);
+    box-shadow: 0px 0px 3px#120a01;
+
+}
+
+div > p{
+    display: none;
+    color:#e48517;
+}
+div:hover > p {
+    display: block;
+    background-color: rgb(249, 235, 219);
+}
+a{
+    color: #120a01;
+}
+a:hover::after{
+    color: #e48517;
+    content: '📽️';
+}
+a:active{
+    color: #00559b;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-cut">
+        <title>Estruturando o site</title>
+        <style>
+            body{
+                background-color: gray;
+            }
+            nav{
+                background-color: rgb(0, 0, 0);
+                padding: 10px;
+                outline: 2px solid rgb(83, 83, 83); 
+                color:white;
+                text-align: left;
+                box-shadow: 3px 2px 70px 100px rgba(88, 84, 84, 0.53);
+
+            }
+            main{
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                margin: auto;
+                border-radius: 27px 3px 32px 1px;
+
+            }
+            div#bola{
+                border-radius: 50%;
+                background-color: azure;
+                width: 100px;
+                height: 100px;
+                padding: auto;
+            }
+            div > p{
+                color: black;
+                text-align: center;
+                margin: auto;
+                padding: 35px;
+            }
+            h3{
+               border:10px solid red;
+               padding: 10px;
+                border-image-source: url(imagens/icone-instagram.png);
+                border-image-slice: 20px;
+                border-image-repeat:repeat;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                Link Link Link
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h1>Titulo 1</h1>
+                    <p>Texto</p>
+                    <h3>Testando as bordas de imagem</h3>
+                    <aside>
+
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div id="bola">
+                <p>Bola</p>
+            </div>
+        </footer>
+    </body>
+</html>
