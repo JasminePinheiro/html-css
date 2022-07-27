@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
@@ -7,36 +8,29 @@
         <title>Imagens de Fundo</title>
         <style>
             body{
-                background-image: url(imagens/wallpaper001.jpg);
+                height: 100vh;
+                background-color: black;
+                background-image: url(imagens/wallpaper002.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
-            div.quadrado {
-                border: 1px solid black;
-                border-radius: 10px;
-                display: inline-block;
-                background-color: gray;
+            main{
+                background-color: white;
+                border: 2px solid black;
+                margin: auto;
+                height: 250px;
                 width: 300px;
-                height: 300px;
+                border-radius: 10px;
             }
-            div#q1 {
-                background-color: aqua;
-            }
-            div#q2 {
-             background-image: linear-gradient(to bottom, purple, black);
-            }
-            div#q3 {
-                background-image: url(imagens/pattern001.png);
-            }
+
         </style>
     </head>
     <body>
-        <div class="quadrado" id="q1">
-
-        </div>
-        <div class="quadrado" id="q2">
-
-        </div>
-        <div class="quadrado" id="q3">
-
-        </div>
+        <main>
+            <h1>Teste de imagem de fundo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ratione quos, mollitia sit facere eaque laborum. Id libero tenetur blanditiis commodi distinctio reprehenderit repellendus! Quia minima error consequatur labore optio!</p>
+        </main>
     </body>
-</html>
+
+ </html>
